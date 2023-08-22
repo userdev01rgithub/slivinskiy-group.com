@@ -1,2 +1,2 @@
 # slivinskiy-group.com
-Web site from my blog
+My person web site and my blog
