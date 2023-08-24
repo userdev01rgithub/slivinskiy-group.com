@@ -9,16 +9,16 @@ import HelloWorld from './components/HelloWorld.vue'
     <div class="wrapper">
       <nav class="nav">
         <RouterLink to="/">Главная</RouterLink>
-        <RouterLink to="/">Кто я?</RouterLink>
-        <RouterLink to="/">Портфолио</RouterLink>
-        <RouterLink to="/">Новости</RouterLink>
-        <RouterLink to="/">Контакты</RouterLink>
+        <RouterLink to="/about">Кто я?</RouterLink>
+        <RouterLink to="/work">Портфолио</RouterLink>
+        <RouterLink to="/news">Новости</RouterLink>
+        <RouterLink to="/contact">Контакты</RouterLink>
         <!-- <RouterLink to="/about">About</RouterLink> -->
       </nav>
     </div>
   </header>
 
-  <RouterView />
+  <RouterView style="height: calc(100vh - 128px);" />
 </template>
 
 <style scoped>
