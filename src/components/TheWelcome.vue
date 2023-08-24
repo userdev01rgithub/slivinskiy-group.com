@@ -1,5 +1,4 @@
 <script setup>
-import Iam from '@/assets/mainPage/4f3acb92cec4028f9e754bec275a8b95.webp'
 </script>
 
 <template>
