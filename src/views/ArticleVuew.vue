@@ -1,10 +1,10 @@
 <template>
   <div class="article">
-    <img src="@/assets/img/newsPage/article_title.png" alt="">
+    <img src="@/assets/img/newsPage/dog-food.jpg" class="article__indexPage" alt="">
     <div class="article__content">
-      <h4>Август 2023 <span>JavaScript - Видео</span></h4>
-      <h1>CSS свойства, о которых ты не знал</h1>
-      <p>Мир Css не стоит на месте, и css развивается вместе с ним, сегодня поговорим о свойствах, о которых никто не или не помнит.</p>
+      <h4 class="article__date">Август 2023 <span class="article__tag">JavaScript - Видео</span></h4>
+      <h1 class="article__title">CSS свойства, о которых ты не знал</h1>
+      <p class="article__text">Мир Css не стоит на месте, и css развивается вместе с ним, сегодня поговорим о свойствах, о которых никто не или не помнит.</p>
       <iframe 
         class="article__youtube"
         src="//www.youtube.com/embed/Y8Wp3dafaMQ" 
@@ -13,7 +13,8 @@
         allowfullscreen>
       </iframe>
       <div class="article__ab">
-        <p><a>Исходники тут</a></p>
+        <img src="@/assets/img/newsPage/Icon.svg" alt="Icons download">
+        <p><a href="https://github.com/userdev01rgithub">Исходники тут</a></p>
       </div>
     </div>
   </div>
@@ -32,5 +33,54 @@
   }
   .article__ab{
     display: flex;
+  }
+  .article__indexPage{
+    width: 100%;
+    max-height: 266px;
+    object-fit: cover;
+    object-position: 0 0;
+  }
+  .article__date{
+    color: var(--neutral-500, #6B7280);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+  }
+  .article__tag{
+    color: var(--accent-base, #3B82F6); 
+  }
+  .article__title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #999;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+  }
+  .article__text{
+    color: var(--neutral-500, #6B7280);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+  }
+  .article__youtube{
+    margin-top: 20px;
+    width: 100%;
+    max-height: 30%;
+  }
+  .article__ab{
+    margin-top: 10px;
+  }
+  .article__ab > p {
+    margin-left: 5px;
+  }
+  .article__ab > p > a:hover{
+    color: #6B7280;
   }
 </style>

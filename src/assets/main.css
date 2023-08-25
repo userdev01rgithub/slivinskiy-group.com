@@ -66,7 +66,7 @@ h1{
 .btn {
   padding: 16px 32px 16px 32px;
   color: var(--color-2, #F8F7F9);
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -95,7 +95,7 @@ h1{
 
 .about__title {
   color: #999;
-  font-family: Poppins;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 80px;
   font-style: normal;
   font-weight: 700;
@@ -104,7 +104,7 @@ h1{
 
 .about__text {
   color: white;
-  font-family: Poppins;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;

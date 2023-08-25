@@ -1,63 +1,16 @@
 <template>
   <div class="news">
     <h1 class="about__title">Новости</h1>
-    <div class="news__index">
+    <article class="news__index">
       <div class="index__image">
         <img src="@/assets/img/newsPage/indexArticle.png" alt="Index page image">
       </div>
       <div class="index__content">
         <h3 class="index__definishen">Август 2023 <span class="index__date">JavaScript - Видео</span></h3>
-        <h2>CSS свойства, о которых ты не знал</h2>
+        <h2 class="index__link" @click="$router.push('news/magic_css')">CSS свойства, о которых ты не знал</h2>
         <p>Мир Css не стоит на месте, и css развивается вместе с ним, сегодня поговорим о свойствах, о которых никто не знает ...</p>
       </div>
-    </div>
-    <div class="news__portal">
-      <article>
-        <img src="@/assets/img/newsPage/unsplash_sxNt9g77PE0.png" alt="">
-        <h3>Javascript - lifestyle</h3>
-        <h2>Новые свойства в ES6</h2>
-        <p>Почувствуй силу javascript, я подготовил список небольших, но крутых проектов на javascript</p>
-        <p><span>Август 2023</span></p>
-      </article>
-      <article>
-        <img src="@/assets/img/newsPage/unsplash_sxNt9g77PE0.png" alt="">
-        <h3>Javascript - lifestyle</h3>
-        <h2>Новые свойства в ES6</h2>
-        <p>Почувствуй силу javascript, я подготовил список небольших, но крутых проектов на javascript</p>
-        <p><span>Август 2023</span></p>
-      </article>
-      <article>
-        <img src="@/assets/img/newsPage/unsplash_sxNt9g77PE0.png" alt="">
-        <h3>Javascript - lifestyle</h3>
-        <h2>Новые свойства в ES6</h2>
-        <p>Почувствуй силу javascript, я подготовил список небольших, но крутых проектов на javascript</p>
-        <p><span>Август 2023</span></p>
-      </article>
-      <article>
-        <img src="@/assets/img/newsPage/unsplash_sxNt9g77PE0.png" alt="">
-        <h3>Javascript - lifestyle</h3>
-        <h2>Новые свойства в ES6</h2>
-        <p>Почувствуй силу javascript, я подготовил список небольших, но крутых проектов на javascript</p>
-        <p><span>Август 2023</span></p>
-      </article>
-      <article>
-        <img src="@/assets/img/newsPage/unsplash_sxNt9g77PE0.png" alt="">
-        <h3>Javascript - lifestyle</h3>
-        <h2>Новые свойства в ES6</h2>
-        <p>Почувствуй силу javascript, я подготовил список небольших, но крутых проектов на javascript</p>
-        <p><span>Август 2023</span></p>
-      </article>
-      <article>
-        <img src="@/assets/img/newsPage/unsplash_sxNt9g77PE0.png" alt="">
-        <h3>Javascript - lifestyle</h3>
-        <h2>Новые свойства в ES6</h2>
-        <p>Почувствуй силу javascript, я подготовил список небольших, но крутых проектов на javascript</p>
-        <p><span>Август 2023</span></p>
-      </article>
-    </div>
-    <div class="news__nb">
-      <button>Дальше</button>
-    </div>
+    </article>
   </div>
 </template>
 
@@ -148,5 +101,12 @@
     font-style: normal;
     font-weight: 700;
     line-height: 140%; 
+  }
+  .index__link{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .index__link:hover{
+    color:#3B82F6;
   }
 </style>

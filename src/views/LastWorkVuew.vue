@@ -76,6 +76,8 @@
   .work__list {
     display: grid;
     grid-template-columns: 50% 50%;
+    margin-top: 40px;
+    grid-gap: 20px;
   }
   .work__profession{
     display: flex;
