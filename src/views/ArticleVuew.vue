@@ -7,14 +7,14 @@
       <p class="article__text">Мир Css не стоит на месте, и css развивается вместе с ним, сегодня поговорим о свойствах, о которых никто не или не помнит.</p>
       <iframe 
         class="article__youtube"
-        src="//www.youtube.com/embed/Y8Wp3dafaMQ" 
+        src="//www.youtube.com/embed/HtIQV0EJqa4" 
         frameborder="0" 
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
         allowfullscreen>
       </iframe>
       <div class="article__ab">
         <img src="@/assets/img/newsPage/Icon.svg" alt="Icons download">
-        <p><a href="https://github.com/userdev01rgithub">Исходники тут</a></p>
+        <p><a href="https://gist.github.com/userdev01rgithub/7f19bdf5650efbc224d2a4537285e843">Исходники тут</a></p>
       </div>
     </div>
   </div>
